@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'Roman';
+    src: url('./fonts/Merriweather-BoldItalic.woff') format('woff2'),
+        url('./fonts/Merriweather-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+
+* {
+    font-family: 'Merriweather';
+    font-weight: bold;
+    font-style: italic;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;    
+}
